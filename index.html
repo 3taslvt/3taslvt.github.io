@@ -1,22 +1,89 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profitixi</title>
-    <style>
-        body {
-            font-family: Tahoma, Arial, sans-serif;
-            text-align: center;
-            margin-top: 100px;
-            background-color: #f5f5f5;
-        }
-        h1 {
-            color: #222;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>به Profitixi خوش آمدید</h1>
-    <p>سایت در حال راه‌اندازی است.</p>
+
+<header>
+    <div class="container header-inner">
+        <a href="index.html" class="logo">Profitixi</a>
+        <nav>
+            <a href="index.html" class="active en">Home</a>
+            <a href="about.html" class="en">About</a>
+            <a href="solutions.html" class="en">Solutions</a>
+            <a href="how-it-works.html" class="en">How It Works</a>
+            <a href="faq.html" class="en">FAQ</a>
+            <a href="contact.html" class="en">Contact</a>
+
+            <a href="index.html" class="active fa">خانه</a>
+            <a href="about.html" class="fa">درباره ما</a>
+            <a href="solutions.html" class="fa">راهکارها</a>
+            <a href="how-it-works.html" class="fa">چگونه کار می‌کند</a>
+            <a href="faq.html" class="fa">سوالات متداول</a>
+            <a href="contact.html" class="fa">تماس با ما</a>
+
+            <button class="lang-btn" onclick="toggleLang()">EN / FA</button>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1 class="en">Smart Investment Solutions</h1>
+        <h1 class="fa">راهکارهای هوشمند سرمایه‌گذاری</h1>
+
+        <p class="en">A modern platform designed to help you explore investment opportunities with clarity and confidence.</p>
+        <p class="fa">یک پلتفرم مدرن که به شما کمک می‌کند فرصت‌های سرمایه‌گذاری را با وضوح و اطمینان بررسی کنید.</p>
+
+        <a href="solutions.html" class="btn en">Explore Solutions</a>
+        <a href="solutions.html" class="btn fa">مشاهده راهکارها</a>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="section-title en">Why Choose Us</h2>
+        <h2 class="section-title fa">چرا ما را انتخاب کنید</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3 class="en">Transparency</h3>
+                <h3 class="fa">شفافیت</h3>
+                <p class="en">Clear information and honest communication at every step.</p>
+                <p class="fa">اطلاعات شفاف و ارتباط صادقانه در تمام مراحل.</p>
+            </div>
+            <div class="card">
+                <h3 class="en">Professional Approach</h3>
+                <h3 class="fa">رویکرد حرفه‌ای</h3>
+                <p class="en">Structured methods focused on long-term value.</p>
+                <p class="fa">روش‌های ساختاریافته با تمرکز بر ارزش بلندمدت.</p>
+            </div>
+            <div class="card">
+                <h3 class="en">User Focused</h3>
+                <h3 class="fa">تمرکز بر کاربر</h3>
+                <p class="en">Simple experience designed for clarity and ease of use.</p>
+                <p class="fa">تجربه‌ای ساده که برای وضوح و راحتی استفاده طراحی شده است.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p class="en">© 2026 Profitixi. All rights reserved.</p>
+        <p class="fa">© ۲۰۲۶ Profitixi. تمامی حقوق محفوظ است.</p>
+    </div>
+</footer>
+
+<script>
+    function toggleLang() {
+        document.body.classList.toggle('fa-mode');
+    }
+</script>
+
 </body>
 </html>
