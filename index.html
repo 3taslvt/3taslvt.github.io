@@ -80,8 +80,17 @@
 </footer>
 
 <script>
+    if (localStorage.getItem('lang') === 'fa') {
+        document.body.classList.add('fa-mode');
+    }
+
     function toggleLang() {
         document.body.classList.toggle('fa-mode');
+        if (document.body.classList.contains('fa-mode')) {
+            localStorage.setItem('lang', 'fa');
+        } else {
+            localStorage.setItem('lang', 'en');
+        }
     }
 </script>
 
