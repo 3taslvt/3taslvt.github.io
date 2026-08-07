@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works - Profitixi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-inner">
+        <a href="index.html" class="logo">Profitixi</a>
+        <nav>
+            <a href="index.html" class="en">Home</a>
+            <a href="about.html" class="en">About</a>
+            <a href="solutions.html" class="en">Solutions</a>
+            <a href="how-it-works.html" class="active en">How It Works</a>
+            <a href="faq.html" class="en">FAQ</a>
+            <a href="contact.html" class="en">Contact</a>
+
+            <a href="index.html" class="fa">خانه</a>
+            <a href="about.html" class="fa">درباره ما</a>
+            <a href="solutions.html" class="fa">راهکارها</a>
+            <a href="how-it-works.html" class="active fa">چگونه کار می‌کند</a>
+            <a href="faq.html" class="fa">سوالات متداول</a>
+            <a href="contact.html" class="fa">تماس با ما</a>
+
+            <button class="lang-btn" onclick="toggleLang()">EN / FA</button>
+        </nav>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2 class="section-title en">How It Works</h2>
+        <h2 class="section-title fa">چگونه کار می‌کند</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3 class="en">1. Explore</h3>
+                <h3 class="fa">۱. بررسی کنید</h3>
+                <p class="en">Browse the available solutions and understand the options.</p>
+                <p class="fa">راهکارهای موجود را بررسی کنید و گزینه‌ها را درک کنید.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="en">2. Choose</h3>
+                <h3 class="fa">۲. انتخاب کنید</h3>
+                <p class="en">Select the approach that best fits your goals.</p>
+                <p class="fa">رویکردی را انتخاب کنید که با اهداف شما بیشترین تناسب را دارد.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="en">3. Start</h3>
+                <h3 class="fa">۳. شروع کنید</h3>
+                <p class="en">Begin with clear information and structured guidance.</p>
+                <p class="fa">با اطلاعات شفاف و راهنمایی ساختاریافته شروع کنید.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p class="en">© 2026 Profitixi. All rights reserved.</p>
+        <p class="fa">© ۲۰۲۶ Profitixi. تمامی حقوق محفوظ است.</p>
+    </div>
+</footer>
+
+<script>
+    function toggleLang() {
+        document.body.classList.toggle('fa-mode');
+    }
+</script>
+
+</body>
+</html>
