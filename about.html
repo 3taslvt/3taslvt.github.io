@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Profitixi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-inner">
+        <a href="index.html" class="logo">Profitixi</a>
+        <nav>
+            <a href="index.html" class="en">Home</a>
+            <a href="about.html" class="active en">About</a>
+            <a href="solutions.html" class="en">Solutions</a>
+            <a href="how-it-works.html" class="en">How It Works</a>
+            <a href="faq.html" class="en">FAQ</a>
+            <a href="contact.html" class="en">Contact</a>
+
+            <a href="index.html" class="fa">خانه</a>
+            <a href="about.html" class="active fa">درباره ما</a>
+            <a href="solutions.html" class="fa">راهکارها</a>
+            <a href="how-it-works.html" class="fa">چگونه کار می‌کند</a>
+            <a href="faq.html" class="fa">سوالات متداول</a>
+            <a href="contact.html" class="fa">تماس با ما</a>
+
+            <button class="lang-btn" onclick="toggleLang()">EN / FA</button>
+        </nav>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2 class="section-title en">About Us</h2>
+        <h2 class="section-title fa">درباره ما</h2>
+
+        <div class="card" style="max-width: 800px; margin: 0 auto;">
+            <p class="en">
+                Profitixi is a platform focused on providing clear and structured investment-related information. 
+                Our goal is to help users better understand opportunities and make informed decisions.
+            </p>
+            <p class="fa">
+                پروفیتیکسی یک پلتفرم است که بر ارائه اطلاعات شفاف و ساختاریافته در حوزه سرمایه‌گذاری تمرکز دارد. 
+                هدف ما کمک به کاربران برای درک بهتر فرصت‌ها و اتخاذ تصمیم‌های آگاهانه است.
+            </p>
+            <br>
+            <p class="en">
+                We believe in transparency, simplicity, and a professional approach.
+            </p>
+            <p class="fa">
+                ما به شفافیت، سادگی و رویکرد حرفه‌ای باور داریم.
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p class="en">© 2026 Profitixi. All rights reserved.</p>
+        <p class="fa">© ۲۰۲۶ Profitixi. تمامی حقوق محفوظ است.</p>
+    </div>
+</footer>
+
+<script>
+    function toggleLang() {
+        document.body.classList.toggle('fa-mode');
+    }
+</script>
+
+</body>
+</html>
