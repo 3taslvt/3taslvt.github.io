@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Profitixi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-inner">
+        <a href="index.html" class="logo">Profitixi</a>
+        <nav>
+            <a href="index.html" class="en">Home</a>
+            <a href="about.html" class="en">About</a>
+            <a href="solutions.html" class="en">Solutions</a>
+            <a href="how-it-works.html" class="en">How It Works</a>
+            <a href="faq.html" class="en">FAQ</a>
+            <a href="contact.html" class="active en">Contact</a>
+
+            <a href="index.html" class="fa">خانه</a>
+            <a href="about.html" class="fa">درباره ما</a>
+            <a href="solutions.html" class="fa">راهکارها</a>
+            <a href="how-it-works.html" class="fa">چگونه کار می‌کند</a>
+            <a href="faq.html" class="fa">سوالات متداول</a>
+            <a href="contact.html" class="active fa">تماس با ما</a>
+
+            <button class="lang-btn" onclick="toggleLang()">EN / FA</button>
+        </nav>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2 class="section-title en">Contact Us</h2>
+        <h2 class="section-title fa">تماس با ما</h2>
+
+        <div class="card" style="max-width: 600px; margin: 0 auto; text-align: center;">
+            <p class="en">
+                For any questions or more information, feel free to reach out.
+            </p>
+            <p class="fa">
+                برای هرگونه سوال یا اطلاعات بیشتر، با ما در ارتباط باشید.
+            </p>
+            <br>
+            <p class="en">
+                Email: <strong>info@profitixi.net</strong>
+            </p>
+            <p class="fa">
+                ایمیل: <strong>info@profitixi.net</strong>
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p class="en">© 2026 Profitixi. All rights reserved.</p>
+        <p class="fa">© ۲۰۲۶ Profitixi. تمامی حقوق محفوظ است.</p>
+    </div>
+</footer>
+
+<script>
+    function toggleLang() {
+        document.body.classList.toggle('fa-mode');
+    }
+</script>
+
+</body>
+</html>
