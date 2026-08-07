@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Profitixi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-inner">
+        <a href="index.html" class="logo">Profitixi</a>
+        <nav>
+            <a href="index.html" class="en">Home</a>
+            <a href="about.html" class="en">About</a>
+            <a href="solutions.html" class="en">Solutions</a>
+            <a href="how-it-works.html" class="en">How It Works</a>
+            <a href="faq.html" class="active en">FAQ</a>
+            <a href="contact.html" class="en">Contact</a>
+
+            <a href="index.html" class="fa">خانه</a>
+            <a href="about.html" class="fa">درباره ما</a>
+            <a href="solutions.html" class="fa">راهکارها</a>
+            <a href="how-it-works.html" class="fa">چگونه کار می‌کند</a>
+            <a href="faq.html" class="active fa">سوالات متداول</a>
+            <a href="contact.html" class="fa">تماس با ما</a>
+
+            <button class="lang-btn" onclick="toggleLang()">EN / FA</button>
+        </nav>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2 class="section-title en">Frequently Asked Questions</h2>
+        <h2 class="section-title fa">سوالات متداول</h2>
+
+        <div class="card" style="max-width: 800px; margin: 0 auto 20px;">
+            <h3 class="en">What is Profitixi?</h3>
+            <h3 class="fa">پروفیتیکسی چیست؟</h3>
+            <p class="en">Profitixi is a platform that provides clear information about investment solutions.</p>
+            <p class="fa">پروفیتیکسی یک پلتفرم است که اطلاعات شفاف در مورد راهکارهای سرمایه‌گذاری ارائه می‌دهد.</p>
+        </div>
+
+        <div class="card" style="max-width: 800px; margin: 0 auto 20px;">
+            <h3 class="en">How can I get started?</h3>
+            <h3 class="fa">چگونه می‌توانم شروع کنم؟</h3>
+            <p class="en">You can explore the Solutions page and contact us for more details.</p>
+            <p class="fa">می‌توانید صفحه راهکارها را بررسی کنید و برای جزئیات بیشتر با ما تماس بگیرید.</p>
+        </div>
+
+        <div class="card" style="max-width: 800px; margin: 0 auto 20px;">
+            <h3 class="en">Is the information free?</h3>
+            <h3 class="fa">آیا اطلاعات رایگان است؟</h3>
+            <p class="en">Yes, the content on this website is freely accessible.</p>
+            <p class="fa">بله، محتوای این وب‌سایت به‌صورت رایگان در دسترس است.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p class="en">© 2026 Profitixi. All rights reserved.</p>
+        <p class="fa">© ۲۰۲۶ Profitixi. تمامی حقوق محفوظ است.</p>
+    </div>
+</footer>
+
+<script>
+    function toggleLang() {
+        document.body.classList.toggle('fa-mode');
+    }
+</script>
+
+</body>
+</html>
